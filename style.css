@@ -1,0 +1,204 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0; }
+
+.row::after {
+  content: "";
+  clear: both;
+  display: table; }
+
+[class*="col-"] {
+  float: left;
+  padding: 15px; }
+
+html {
+  font-family: "Lucida Sans", sans-serif;
+  background-color: #f3eded; }
+
+.header {
+  background-color: #201358;
+  color: #ffffff; }
+
+#belowHeader {
+  background-color: #f3eded;
+  color: orangered; }
+  #belowHeader #rewards,
+  #belowHeader #pay {
+    color: #999797; }
+
+#navBar {
+  background-color: white; }
+  #navBar #jumia {
+    color: #333131;
+    font-size: 40px;
+    font-weight: bold;
+    font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif; }
+  #navBar #searchItems {
+    padding: 10px 0 0 20px; }
+  #navBar #searchButton {
+    height: 35px;
+    width: 80px;
+    border: 0;
+    border-radius: 10%;
+    box-shadow: 3px 3px 5px #c4c3c3;
+    background-color: #ff8800;
+    color: white; }
+    #navBar #searchButton:hover {
+      background-color: #ce7107; }
+  #navBar #searchBar {
+    margin-top: 10px;
+    width: 27vw;
+    height: 35px; }
+  #navBar #login,
+  #navBar #help,
+  #navBar #cart {
+    color: #333131;
+    font-size: 18px;
+    padding-top: 20px; }
+
+#main {
+  background-color: #f3eded; }
+  #main #topRight {
+    width: 65%;
+    display: block;
+    margin-bottom: 10px; }
+  #main #bottomRight {
+    width: 65%;
+    display: block; }
+
+#list ul {
+  list-style-type: none;
+  margin-left: 20px;
+  padding: 0;
+  background-color: white;
+  width: 80%; }
+#list li {
+  padding: 9px;
+  color: black;
+  font-size: 14px; }
+  #list li:hover {
+    color: coral; }
+
+.footer {
+  background-color: #f3eded;
+  color: #ffffff;
+  text-align: center;
+  font-size: 12px;
+  padding: 15px; }
+  .footer #jumiaMall,
+  .footer #jumiaGlobal,
+  .footer #recharge,
+  .footer #jumiaPrimo {
+    background-color: white;
+    margin: 0 28px 0 20px;
+    width: 20%;
+    display: flex;
+    justify-content: start; }
+  .footer #jumiaMallImg,
+  .footer #jumiaGlobalImg,
+  .footer #rechargeImg,
+  .footer #jumiaPrimoImg {
+    width: 40px;
+    height: 40px; }
+  .footer #jumiaMallText,
+  .footer #jumiaGlobalText,
+  .footer #rechargeText,
+  .footer #jumiaPrimoText {
+    font-size: 16px;
+    font-weight: bold;
+    color: black;
+    padding: 10px 0 0 10px; }
+
+#products {
+  margin-left: 30px; }
+  #products .product {
+    margin-top: 2px;
+    display: inline-block;
+    text-align: center;
+    background-color: white;
+    border: 2px solid #dad8d8; }
+
+[class*="col-"] {
+  width: 100%; }
+
+@media only screen and (min-width: 600px) {
+  .col-s-1 {
+    width: 8.33%; }
+
+  .col-s-2 {
+    width: 16.66%; }
+
+  .col-s-3 {
+    width: 25%; }
+
+  .col-s-4 {
+    width: 33.33%; }
+
+  .col-s-5 {
+    width: 41.66%; }
+
+  .col-s-6 {
+    width: 50%; }
+
+  .col-s-7 {
+    width: 58.33%; }
+
+  .col-s-8 {
+    width: 66.66%; }
+
+  .col-s-9 {
+    width: 75%; }
+
+  .col-s-10 {
+    width: 83.33%; }
+
+  .col-s-11 {
+    width: 91.66%; }
+
+  .col-s-12 {
+    width: 100%; } }
+@media only screen and (max-width: 1200px) {
+  .footer {
+    display: none; }
+
+  #hidden {
+    display: none; } }
+@media only screen and (min-width: 1200px) {
+  .col-1 {
+    width: 8.33%; }
+
+  .col-2 {
+    width: 16.66%; }
+
+  .col-3 {
+    width: 25%; }
+
+  .col-4 {
+    width: 33.33%; }
+
+  .col-5 {
+    width: 41.66%; }
+
+  .col-6 {
+    width: 50%; }
+
+  .col-7 {
+    width: 58.33%; }
+
+  .col-8 {
+    width: 66.66%; }
+
+  .col-9 {
+    width: 75%; }
+
+  .col-10 {
+    width: 83.33%; }
+
+  .col-11 {
+    width: 91.66%; }
+
+  .col-12 {
+    width: 100%; } }
+
+/*# sourceMappingURL=style.css.map */
